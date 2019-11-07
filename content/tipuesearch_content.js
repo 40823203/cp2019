@@ -1,1 +1,1 @@
-var tipuesearch = {"pages": [{'title': 'About', 'text': '\n 倉儲\xa0 https://github.com/40823203/cp2019 \n Dart\xa0 https://dartpad.dev?id=b3a63061d37858778e510273b2eec602\xa0 \n 原始碼 \n main(){\n    print("hello");\n} \n \n 原始碼 \n int i;\nint sum;\n \nmain(){\n  sum = 0;\n  for(i=1;i <= 10 ;i++){\n    sum += i;\n    print("$sum");\n  }\n  print(\'sum = $sum\');\n} \n', 'tags': '', 'url': 'About.html'}]};
+var tipuesearch = {"pages": [{'title': 'About', 'text': '放大   回復   Hello   For Loop   Sum Runge-Kutta \n', 'tags': '', 'url': 'About.html'}]};
