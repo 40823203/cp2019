@@ -1,6 +1,8 @@
-// 定義一個 C to F function
+//定義一個由攝氏轉為華氏的的方程式 C to F function
 
-// define a F to C function
+
+//定義一個由攝氏轉為華氏的的方程式 define a F to C function
+
 
 // 每一個 Dart 程式都從 main() 開始執行
 main() {
@@ -33,13 +35,13 @@ main() {
     // https://api.dartlang.org/stable/2.6.1/dart-core/Object/runtimeType.html
     //print("目前 number 變數資料型別為: ${number.runtimeType}");
     // 之後就可以根據 type 與 number 執行各數列元素的溫度轉換
+
     if (type == "C"){
-      double type=number*(9/5)+32;
-      print("C:$number, =$type°F");
+      print("C: $type, $number");
     }else{
-      double type=(number-32)*(5/9);
-      print("F:$number, =$type°C");
+      print("F: $type, $number");
     }
-      
-  } // for
+   
+ 
+   } // for
 } // main
