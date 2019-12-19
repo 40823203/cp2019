@@ -1,4 +1,3 @@
-@@ -13,7 +13,7 @@
 # 因為 publishconf.py 在 pelicanconf.py 之後, 因此若兩處有相同變數的設定, 將以較後讀入的 publishconf.py 中的設定為主.
 
 # 將所有靜態 html 檔案移到 blog 子目錄
@@ -6,7 +5,6 @@ SITEURL = 'https://40823203.github.io/cp2019/blog'
 # 此設定用於將資料送到 gh-pages, 因此使用絕對 URL 設定
 RELATIVE_URLS = False
 
-@@ -30,7 +30,7 @@
 
 # Following items are often useful when publishing
 

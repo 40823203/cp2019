@@ -67,7 +67,6 @@
 <v t="yen.20170108171733.83"><vh>產生 .key 與 .crt 指令</vh></v>
 </v>
 <v t="yen.20170108171930.1"><vh>@button https server</vh></v>
-@@ -81,18 +91,19 @@ g.es("admin pelican Github 執行完畢")
 
 
 </t>
@@ -86,7 +85,6 @@
 <t tx="yen.20170108171605.1"></t>
 <t tx="yen.20170108171605.2">QTreeWidget {
     /* These apply to the selected item, but not to editing items.*/
-@@ -236,5 +247,6 @@ def domake():
 make = threading.Thread(target=domake)
 make.start()</t>
 <t tx="yen.20170224232341.1"></t>
