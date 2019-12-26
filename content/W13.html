@@ -155,8 +155,36 @@ img.add_border {
           
         </header>
     <div id="tipue_search_content">w12 << <a href='w12.html'>Previous</a> <a href='W14.html'>Next</a> >> W14<br /><h1>W13</h1>
-<p></p>
-<br />w12 << <a href='w12.html'>Previous</a> <a href='W14.html'>Next</a> >> W14</div>
+<p>任務說明 : 沿用 W11 ~ W12 的方式，網頁中在Htmlt程式新增一個 Temp2 的按鈕，並且在近端新增 dart檔、yaml檔、html檔 和 style檔，<span>提交推送使網頁能成功顯示，</span>不管輸入的溫度是攝氏或者華氏，可以轉換成 攝氏或者華氏 ，所有動作完成之後，錄製影片說明操作步驟。</p>
+<script>
+function getDart(dirname){
+    source = "https://dartpad.github.io/embed-dart.html?gh_owner=40823203&gh_repo=cp2019&gh_path=downloads/new/" + dirname + "&theme=dark";
+    document.getElementById("iframe").src = source ;
+}
+
+function getHtmlDart(dirname){
+    source = "https://dartpad.github.io/embed-html.html?gh_owner=40823203&gh_repo=cp2019&gh_path=downloads/new/"  + dirname + "&theme=dark";
+document.getElementById("iframe").src = source ;
+}
+
+
+function largest(){
+document.getElementById("iframe").width = document.body.clientWidth ;
+document.getElementById("iframe").height = document.body.clientWidth*0.5 ;
+}
+
+function original(){
+document.getElementById("iframe").width = 900 ;
+document.getElementById("iframe").height = 600 ;
+}
+</script>
+<!-- 取 Dart 程式的按鈕 -->
+<h4>純 Dart 程式</h4>
+<p><button onclick="getDart('cf_change')">Temp1</button></p>
+<h4>Html 程式</h4>
+<p><button onclick="getHtmlDart('temp2')">Temp2</button> <!-- 內建放入的 Dart 原始碼 --></p>
+<p><button onclick="largest()">放大</button> <button onclick="original()">回復</button></p>
+<p><iframe height="600" id="iframe" src="https://dartpad.dartlang.org/embed-dart.html?gh_owner=40823203&amp;gh_repo=cp2019&amp;gh_path=downloads/new/cf_change&amp;theme=dark" width="800"></iframe></p><br />w12 << <a href='w12.html'>Previous</a> <a href='W14.html'>Next</a> >> W14</div>
         
     <!-- footer -->
       <div class="container">
